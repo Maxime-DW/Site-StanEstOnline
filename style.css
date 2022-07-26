@@ -1,0 +1,77 @@
+header, #section_l_agence, #contact{
+    background-color: #e3f2fd;
+}
+
+h1, h2 { 
+    color: #016FB7;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+    text-shadow: 5px 5px 30px black;
+    padding: 1em 1em;
+}
+
+.bold {
+    font-weight:unset;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.StanEstOnline {
+    letter-spacing: 0.4em;
+}
+
+.bg-image {
+    background-image: url(./assets/banniere.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    width: 5.5em;
+}
+
+.logo_media {
+    height: 2.5em;
+}
+
+
+@media (min-width: 992px) {
+
+    .bg-image {
+        width: auto;
+        height: 45em;
+        padding-top: 5em;
+    }
+
+    h1 {
+        font-size: 4em;
+        line-height: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .bg-image {
+        width: auto;
+        height: auto;
+    }
+
+    .StanEstOnline {
+        letter-spacing: 0.1em;
+    }
+    
+    h1 {
+        font-size: 2.2em;
+        line-height: 1.4em;
+        padding: 1em;
+    }
+}
