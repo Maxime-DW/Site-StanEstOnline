@@ -1,20 +1,23 @@
-header, #section_l_agence, #contact{
+header,
+#section_l_agence,
+#contact {
     background-color: #e3f2fd;
 }
 
-h1, h2 { 
+h1,
+h2 {
     color: #016FB7;
 }
 
 h1 {
     font-size: 2.5em;
     line-height: 1.5em;
-    text-shadow: 5px 5px 30px black;
+    text-shadow: 0 0 70px black;
     padding: 1em 1em;
 }
 
 .bold {
-    font-weight:unset;
+    font-weight: unset;
 }
 
 p {
@@ -68,7 +71,7 @@ p {
     .StanEstOnline {
         letter-spacing: 0.1em;
     }
-    
+
     h1 {
         font-size: 2.2em;
         line-height: 1.4em;
